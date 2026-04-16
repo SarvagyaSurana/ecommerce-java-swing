@@ -1,23 +1,20 @@
-#eCommerce App  
-Overview
-This project is an eCommerce application that consists of a frontend developed using Java Swing and a backend implemented with MySQL using JDBC (Java Database Connectivity).
+# RetailSync-Java
 
-Frontend:
-Java Swing: For building the graphical user interface.
-Backend:
-MySQL: For storing product information, user data, and order details.
-JDBC (Java Database Connectivity): For connecting Java applications with the MySQL database.
-Installation
-Clone the repository: git clone https://github.com/Prakhar-Ag27/ecommerce
-Import the project into your preferred Java IDE.
-Set up the MySQL database by executing the provided SQL script (database.sql) in your MySQL environment.
-Update the database connection properties in the backend code (src/GlobalVariables.java) with your MySQL credentials.
-Usage
-Run the backend server.
-Launch the frontend application.
-Sign up or log in.
+A robust eCommerce desktop application built with **Java Swing** and **MySQL**. This system provides a full-featured retail management interface with real-time database synchronization via JDBC.
 
-Acknowledgments
-Java Swing Documentation
-MySQL Documentation
-JDBC Documentation
+## Features
+- **User Authentication:** Secure login/signup for Customers and Sellers.
+- **Product Management:** Dynamic catalog with search and filtering.
+- **Transaction Logic:** Integrated cart system with persistent wallet tracking.
+- **Seller Dashboard:** Specialized interface for inventory and order management.
+
+## Technical Architecture
+- **Language:** Java
+- **UI Framework:** Java Swing / AWT
+- **Database:** MySQL 8.0
+- **Driver:** JDBC (Connector/J)
+
+## Setup
+1. Execute `tables.sql` in your MySQL environment.
+2. Configure credentials in `src/ecommerce/GlobalVariables.java`.
+3. Run `Main.java` to launch the application.
